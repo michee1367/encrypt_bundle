@@ -1,0 +1,21 @@
+{
+    "name": "mink67/encrypt_bundle",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Mink67\\Encrypt\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Michée NKUSU",
+            "email": "nkusumichee1367@gmail.com"
+        }
+    ],
+    "require": {
+        "symfony/dependency-injection": "5.4.*",
+        "symfony/config": "5.4.*",
+        "symfony/http-kernel": "5.4.*"
+    }
+}

@@ -1,0 +1,11 @@
+services:
+  Mink67\Encrypt\Crypt:
+    class: Mink67\Encrypt\Crypt
+    autowire: true
+    arguments:
+      $ciphering: '%mink67.encrypt.ciphering%'
+      $options: '%mink67.encrypt.options%'
+      $encryption_iv: '%mink67.encrypt.encryption_iv%'
+      $encryption_key: '%mink67.encrypt.encryption_key%'
+      $decryption_iv: '%mink67.encrypt.decryption_iv%'
+      $decryption_key: '%mink67.encrypt.decryption_key%'
