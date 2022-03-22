@@ -39,7 +39,7 @@ class Crypt implements ContractsCrypt {
         string $encryption_iv,
         string $encryption_key,
         string $decryption_iv,
-        string $decryption_key,
+        string $decryption_key
     ) {
         $this->ciphering = $ciphering;
         $this->options = $options;
